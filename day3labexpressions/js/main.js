@@ -33,7 +33,7 @@ var week5=115.00;
 var totalamount=week1+week2+week3+week4+week5;
 var averageamount=totalamount/5;
 
-console.log("You have spent a total of"+ ""+totalamount+" +"on groceries over 5 weeks.That is an average of+" "+averageamount+" ""+per week");
+console.log("You have spent a total of" + totalamount + "on groceries over 5 weeks. That is an average of " + averageamount + "per week");
 
 
 
@@ -42,11 +42,10 @@ console.log("You have spent a total of"+ ""+totalamount+" +"on groceries over 5 
 var orignalprice=59.00;
 var discountedpercentage=0.5;
 var salestax=0.07*orignalprice;
-var item="gym membership";
+var item="car detail";
 
 
 
 var itemwithtax=orignalprice+salestax;
 var itemwithouttax=orignalprice-salestax;
 
-console.log("Your item was originally "+orignalprice+", "+ "but after a"+ discountedpercentage +"discount, it is now $"itemwithouttax without tax, and itemwithtax with tax.”);
