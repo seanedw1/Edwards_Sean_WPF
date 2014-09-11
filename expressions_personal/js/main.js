@@ -8,9 +8,12 @@
 
 
 alert("i own a 99 honda civic and yes she is the love of my life");
-var yourcar=prompt("what type of car do you own");
+var yourcar=prompt("what type of car do you own?");
+var yourYear=prompt("what year is your car?");
+var PrettyInPink=prompt("is it ugly or pretty?")
 
-alert("I bet my honda is nicer than your "+yourcar);
+
+alert("I bet my honda is nicer than your " + PrettyInPink +" "+ yourYear +" "+ yourcar+ "Lol");
 
 
 var maintenance=["oil change","car wash","tires","windshield wipers"];
@@ -21,5 +24,5 @@ var windshieldWipers=25.00; //price for new wipers
 var totalAmountEachMonth=oilChange+carWash+tires+windshieldWipers;
 var carType="I own a 99 honda civic and yes she is the love of my life";
 
-console.log("every month i spend a total of " +totalAmountEachMonth+ "on my car maintenance");
+console.log("every month i spend a total of " +totalAmountEachMonth+ " on my car maintenance");
 console.log("my maintenance items include " +maintenance);
