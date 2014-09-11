@@ -42,10 +42,11 @@ console.log("You have spent a total of" + totalamount + "on groceries over 5 wee
 var orignalprice=59.00;
 var discountedpercentage=0.5;
 var salestax=0.07*orignalprice;
-var item="car detail";
+var item=("car detail");
 
 
 
 var itemwithtax=orignalprice+salestax;
 var itemwithouttax=orignalprice-salestax;
 
+console.log("Your item was originally" + orignalprice + "but after a" + discountedpercentage + "discount, it is now $" + itemwithouttax + "without tax, and" +itemwithtax+ "with tax.”");
