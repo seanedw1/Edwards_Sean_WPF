@@ -8,7 +8,7 @@ var marginSize=prompt("how much of a margin is used");
 var paddingSize=prompt("how much padding is used");
 var borderSize=prompt("size of border");
 var contentsize=prompt("how many px size will be needed for your content space");
-
+alert("you will need a total of" + pxNeeded + "to have the correct px");
 
 
 var margin="";
@@ -20,5 +20,5 @@ var boxmodel=["margin","border","padding","content"];
 
 var pxNeeded=(marginSize-paddingSize-borderSize-contentsize);
 
-console.log("the correct amount of px needed is" +pxNeeded);
-console.log("my array boxmodel includes the parts of the css box model"+boxmodel);
+console.log("the correct amount of px needed is"+pxNeeded);
+console.log("my array boxmodel includes the parts of the css box model"+ boxmodel);
