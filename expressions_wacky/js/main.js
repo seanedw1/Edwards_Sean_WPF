@@ -12,18 +12,18 @@ var beerSupply=prompt("how many kegs of beer will you bring?");
 
 
 
-
+var peopleComing=inviteSent-rsvp;
 var invites=("amount of invites sent people");
 var beerNeeded=12;
-var stillNeeded=(beerSupply-stillNeeded);
-var djPrice=75.00;
+var stillNeeded=(beerSupply-beerNeeded);
+var djPrice=40.00;
 var hoursPlayed=9;
 var amountPayedToDj=(djPrice*hoursPlayed);
-var cover=5.00;
+var cover=10.00;
 var totalAmountMade=(rsvp*cover);
 var totalAfterDJ=(rsvp*cover-amountPayedToDj);
 
 
-console.log("sean made a total of " + totalAmountMade + " before paying the dj.after paying the dj sean had left " +totalAfterDJ+ "from the party.");
+console.log("sean made a total of " + totalAmountMade + " before paying the dj.after paying the dj sean had left " +totalAfterDJ + "from the party.");
 console.log("the dj made a total of "+ amountPayedToDj);
-console.log("sean needs ");
+console.log("sean still needs " +stillNeeded);
