@@ -36,3 +36,12 @@ console.log(Math.ceil(num1));
 console.log(Math.floor(num1));
 //round num1 down
 
+
+//find a random number between 0 and 1
+var num2 =Math.random();
+console.log(num2);
+
+//find a random number between and 10
+var num3 = Math.random()*10;
+console.log(num3);
+
