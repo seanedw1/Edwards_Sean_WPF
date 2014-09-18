@@ -11,15 +11,27 @@ if(min===""){
 
 }
 
+
 //isNAN means not a number
 // || means or
 // && means and
 
-
+/*
 if(isNaN(min)|| min===""){
 
     min=prompt("please enter a number and do not leave blank");
 }
+*/
+
+//while loop runs as long as condition is true
+
+
+while(isNaN(min) || (min)==="") {
+    min = prompt("please enter a number and do not leave blank");
+
+}
+
+
 
 var randomNumber = Math.random()*(Number(max)-Number(min))+min;
 
