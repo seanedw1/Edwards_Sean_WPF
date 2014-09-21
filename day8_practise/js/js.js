@@ -14,11 +14,11 @@ function calcArea(w,h){
     var area =w*h;
     console.log(area);
 
-
+    return area;
 }
-
+var funcResults=calcArea(20,20);
 //run the function again
-calcArea(30,30);
+console.log(funcResults);
 
 
 function humanDog(humanAge,dogAge){
