@@ -69,5 +69,4 @@ ternaries-decision making on one line
 (condition)? do if true : do if false;
 
 
-
 */
