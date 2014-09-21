@@ -14,7 +14,9 @@ if(freelanceEmployee==="") {
 }
 
 if(homeOffice===""){
-    alert("please answer Home or office");
+    var homeOffice=(prompt("please answer Home or office"));
+}else{
+    console.log("thank u for answering");
 }
 
 
@@ -36,13 +38,13 @@ else if -choosing between three or more blocks of code-always require a conditio
 
 equality operators
 
-== equal to/equality
-=== strict equality
-!= not equal to/inequality
+== equal to/equality/the same as
+=== strict equality/the value and the same type is beter than ==
+!= not equal to/inequality/is not the same as/uses the ! operator
 
 
 
-relational operators-comparing two variables or values
+relational operators-comparing two variables or values/go between pairs of objects/always work in pairs
 
 the comparison results in true false
 
@@ -51,6 +53,20 @@ the comparison results in true false
  >=greater than or equal to
  <=less than or equal to
 
+logical operators-comparing pairs of true and false/between realational expressions or boolean values/always works in pairs
+
+ the comparison results in true false
+ they compare two true or false values
+ they compare pairs of relational expressions
+
+&& and -requires both in pair to be true for the whole pair to be true
+|| or -requires at least one of the pair to be true for the whole pair to be true
+ ! not -flips a value-true becomes false, false becomes true-is not used for comparison-if more than one are true the result is false
+^ exclusive or (xor)
+
+ternaries-decision making on one line
+
+(condition)? do if true : do if false;
 
 
 
