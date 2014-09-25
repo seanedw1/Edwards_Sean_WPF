@@ -2,18 +2,18 @@
 //9/22/14
 //wpf
 
+budget(200.00,53.99,75.00);
 
 
-function budget(money,bill1,bill2){
-
+function budget(money,bill1,bill2){//three parameters/normal function/ternary/
+var moneyBefore=money;
     var moneyAfterBills=money-bill1-bill2;
-    return budget();
+    (moneyBefore >= moneyAfterBills )? console.log("you have "+moneyAfterBills):console.log("you have "+moneyBefore);
+
 }
-var total=budget();
 
-race(200.00,53.99,75.00);
 
-(total<budget)? console.log("sorry buddy"):console.log("great job");
+
 
 
 
