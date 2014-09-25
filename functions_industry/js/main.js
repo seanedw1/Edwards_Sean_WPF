@@ -3,14 +3,24 @@
 //wpf\
 
 
-var myFunction= function(){
+var myFunction = function()//this is my anonymous function
 
+{
+    var html="html is essential part of building any website";
+    var css="css is a way to give your html some style";
+var total=html+css;
+
+    console.log(html+" " +css);
+
+    if(html!=css||total){
+        console.log("ony added this line because i needed a logical operator which i added to my anonymous function");
+    }
 
 }
 
 
 
-
+myFunction();
 
 
 
