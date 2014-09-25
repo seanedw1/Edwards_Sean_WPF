@@ -4,15 +4,16 @@
 
 
 
-function race(car1,car2,car3){
-var number=car1*car2/car3;
-    return race();
+function budget(money,bill1,bill2){
+
+    var moneyAfterBills=money-bill1-bill2;
+    return budget();
 }
-var winner=race();
+var total=budget();
 
-race(7,12,6);
+race(200.00,53.99,75.00);
 
-(race == winner)? console.log("sorry buddy"):console.log("great job");
+(total<budget)? console.log("sorry buddy"):console.log("great job");
 
 
 
