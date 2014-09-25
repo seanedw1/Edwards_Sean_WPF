@@ -3,18 +3,16 @@
 //wpf
 
 
-carNumber=42;
-race(7,9,10);
 
 function race(car1,car2,car3){
-    race=car1*car2/car3
-    console.log("you won the race kid " + race);
+var number=car1*car2/car3;
+    return race();
 }
+var winner=race();
 
-(race < carNumber)? console.log("sorry buddie maybe next year"):console.log("great job");
+race(7,12,6);
 
-
-
+(race == winner)? console.log("sorry buddy"):console.log("great job");
 
 
 
