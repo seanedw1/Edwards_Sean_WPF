@@ -9,11 +9,7 @@ function budget(money,bill1,bill2){//three parameters/normal function/ternary/
 var moneyBefore=money;
     var moneyAfterBills=money-bill1-bill2;
     (moneyBefore >= moneyAfterBills )? console.log("you have "+moneyAfterBills):console.log("you have "+moneyBefore);
-
 }
-
-
-
 
 
 
