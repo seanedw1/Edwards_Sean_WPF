@@ -1,9 +1,9 @@
 //sean edwards
 //9/22/14
 //wpf
-
-function Marbles(amountOfMarbles,amountToSell){
+ function marbles(amountOfMarbles,amountToSell){
 
     var toKeep=amountOfMarbles/amountToSell;
-    console.log(toKeep);
+    console.log("keep this amount of marbles "+toKeep);
 }
+marbles(10,5);
