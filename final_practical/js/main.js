@@ -4,7 +4,7 @@ function discountedPrices(costOfItem,discountPercent){
 
     var costOfItem=(prompt("what is the cost of the item"));
 
-    if(costOfItem===""){//i know im suppose to use a NAN but i could get it to work correctly
+    if(costOfItem===""){//i know im suppose to use a NAN but i could get it to work correctly NaN>100
         (prompt("please enter a amount of cost"));
 
     }
