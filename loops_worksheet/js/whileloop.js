@@ -16,3 +16,45 @@ while(walkingDead){
         walkingDead = false;
     }
 }
+
+
+/*
+
+
+
+in great design the beauty is in what you dont see-mark kawano
+
+
+while loops-looks similar to conditional
+
+var b=50; //setup the index
+
+while(b>0){ //checks the condition
+console.log(b+"dwqm");
+b--; //increments or decrements the index
+}
+
+while(condition){action to run}
+
+
+do while loop
+ var c-10;
+
+ do{console.log(c+'kegs on the wall');//code runs before condition can determine if its true/if false code still runs
+
+ }
+while(c>0);
+
+
+for loop-short hand version of all loops put together
+
+
+for(var i=10 //sets variable ; i > 0 ; i-- //increments or decrements){
+console.log(i+"kegs on the wall");
+}
+
+
+
+
+
+ */

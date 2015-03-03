@@ -50,3 +50,43 @@ var itemwithtax=orignalprice+salestax;
 var itemwithouttax=orignalprice-salestax;
 
 console.log("Your item was originally" + orignalprice + "but after a" + discountedpercentage + "discount, it is now $" + itemwithouttax + "without tax, and" +itemwithtax+ "with tax.”");
+
+
+/*
+
+alert("message to print out");//pop up
+console.log("message to print out");//prints to java console
+
+variables of different types,numbers,booleans anf strings
+
+second word in variable name always has first letter capital letter
+
+var age=38;//number variable
+var isstudent=false;//boolean variable
+var firstName="kermit";//
+
+var phrase='i don\'t know';// escape character used to ignore ' in don't \
+
+var phrase='i don\'t know \n you\'ll have to speak to the professor';//new line character used to make sentence to lines \n
+
+//casting
+var stringvar="6";
+var results=7+number(stringVar); //tells stringvar string to act as a number
+console.log(results);
+
+
+var areacode=407;
+var firstpart=203;
+var secpart=4529;
+
+var phoneno="("+ string(areacode)")"+string(firstpart)+"-"+string(secpart); // numbers casted together to act as a sting
+console.log(phoneno);
+
+modulo //
+%-percentage sign used to find the remainder of a division
+
+var userinput=prompt("enter question here");
+console.log(userinput);
+
+
+ */
